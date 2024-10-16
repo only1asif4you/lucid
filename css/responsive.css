@@ -1,0 +1,547 @@
+/* 2X EXTRA LARGE DEVICES - xxl (Extra Large Desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+
+/* EXTRA LARGE DEVICES - xl (Large Desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* LARGE DEVICES - lg (Desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .banner-content h2 {
+    font-size: 40px;
+  }
+  #features:hover .section-header::before,
+  #features:hover .section-header::after,
+  #mobile-1:hover .section-header::before,
+  #mobile-1:hover .section-header::after,
+  #mobile-2:hover .section-header::before,
+  #mobile-2:hover .section-header::after,
+  #testimonial:hover .section-header::before,
+  #testimonial:hover .section-header::after,
+  #pricing:hover .section-header::before,
+  #pricing:hover .section-header::after,
+  #contact:hover .section-header::before,
+  #contact:hover .section-header::after {
+    width: 33px;
+  }
+  #like .btn {
+    padding: 10px 10px;
+    font-size: 12px;
+  }
+  #like h2 {
+    font-size: 25px;
+  }
+  #mobile-2 {
+    padding-bottom: 25px;
+  }
+  #testimonial-carousel .item .author-details {
+    margin: 0;
+  }
+  .form-hight {
+    min-height: 40vh;
+  }
+  form {
+    width: 65%;
+    bottom: 25%;
+  }
+}
+
+/* MEDIUM DEVICES - md (Tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    height: 110vh;
+  }
+  .nav-item {
+    margin: 0;
+  }
+  .nav-link {
+    display: inline-block;
+  }
+  .navbar-brand {
+    padding-bottom: 20px;
+  }
+  .banner-content h2 {
+    font-size: 40px;
+    padding-right: 25px;
+  }
+  .banner-content p {
+    font-size: 16px;
+    padding-right: 20%;
+  }
+  .section-header h2 {
+    font-size: 30px;
+  }
+  .section-header::before {
+    left: 44%;
+  }
+  .section-header::after {
+    right: 44%;
+  }
+  #features .item .title {
+    font-size: 22px;
+  }
+  #features .item .details {
+    padding: 0 25%;
+  }
+  #features .item {
+    margin: 10px 10px 20px;
+  }
+  #features {
+    padding: 60px 0 45px;
+  }
+  #mobile-1 .image {
+    text-align: center;
+  }
+  #mobile-1 p {
+    padding-right: 30%;
+  }
+  #mobile-1 .section-header::after {
+    right: 86%;
+  }
+  #mobile-2 .section-header {
+    text-align: center;
+  }
+  #mobile-2 p {
+    text-align: center;
+    padding: 0 10%;
+  }
+  #mobile-2 .section-header::before {
+    left: 44%;
+  }
+  #mobile-2 .section-header::after {
+    right: 44%;
+  }
+  #about p {
+    font-size: 16px;
+  }
+  #about #mobile-1 {
+    padding-bottom: 40px;
+  }
+  #about span {
+    font-size: 16px;
+  }
+  #testimonial-carousel .item .author-image {
+    width: 50px;
+  }
+  #testimonial-carousel .item .author-details {
+    margin-left: 20px;
+  }
+  #testimonial-carousel .item p {
+    margin-bottom: 30px;
+  }
+  #like h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #like .banner-button {
+    text-align: center;
+    padding-top: 25px;
+  }
+  #pricing .item {
+    margin-bottom: 45px;
+    margin-top: -20px;
+  }
+  #contact .icon {
+    margin-top: -25px;
+    font-size: 30px;
+  }
+  .form-hight {
+    min-height: 40vh;
+  }
+  form {
+    width: 80%;
+    bottom: 25%;
+  }
+  footer .social-icons a {
+    font-size: 18px;
+  }
+  footer .author h5 {
+    font-size: 16px;
+  }
+  footer {
+    padding: 25px 0;
+  }
+}
+
+/* SMALL DEVICES - sm (Landscape Phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    height: 90vh;
+  }
+  .navbar-brand {
+    padding-bottom: 20px;
+  }
+  .nav-item {
+    margin: 0;
+  }
+  .nav-link {
+    display: inline-block;
+  }
+  .banner-height {
+    height: 65vh;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .banner-content h2 {
+    font-size: 30px;
+    padding: 2% 5%;
+  }
+  .banner-content p {
+    font-size: 16px;
+    padding: 2% 5% 5%;
+  }
+  .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .section-header h2 {
+    font-size: 30px;
+  }
+  .section-header::before {
+    left: 41.5%;
+  }
+  .section-header::after {
+    right: 41.5%;
+  }
+  #features .item .title {
+    font-size: 22px;
+  }
+  #features .item .details {
+    padding: 0 25%;
+  }
+  #features .item {
+    margin: 10px 10px 20px;
+  }
+  #features {
+    padding: 60px 0 45px;
+  }
+  #features .item .icon {
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+    font-size: 20px;
+  }
+  #features .item .title {
+    padding: 15px 0 10px;
+  }
+  #features .item .details {
+    padding: 0 20%;
+  }
+  #about p {
+    padding-right: 5%;
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  #about span {
+    font-size: 16px;
+  }
+  #mobile-1 {
+    padding-bottom: 35px;
+  }
+  #mobile-2 p {
+    padding: 0 15%;
+    text-align: center;
+  }
+  #mobile-2 {
+    padding-bottom: 15px;
+  }
+  #mobile-2 .section-header {
+    text-align: center;
+  }
+  #mobile-2 .section-header::before {
+    left: 42.5%;
+  }
+  #mobile-2 .section-header::after {
+    right: 42.5%;
+  }
+  #mobile-1:hover .section-header::before,
+  #mobile-1:hover .section-header::after,
+  #mobile-2:hover .section-header::before,
+  #mobile-2:hover .section-header::after {
+    width: 38px;
+  }
+  #testimonial-carousel .item p {
+    text-align: center;
+  }
+  #testimonial-carousel .item .author-details {
+    color: rgb(232, 232, 232);
+    text-align: center;
+    margin: 15px 0;
+  }
+  .owl-theme .owl-dots {
+    margin-top: 30px !important;
+  }
+  #like {
+    padding: 30px 0;
+  }
+  #like h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  #like .banner-button {
+    text-align: center;
+  }
+  #like .btn {
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+  #pricing {
+    padding: 60px 0 25px;
+  }
+  #pricing .item {
+    width: 70%;
+    margin: 0 auto 40px;
+  }
+  #contact .icon {
+    font-size: 25px;
+  }
+  #contact p {
+    margin-bottom: 25px;
+  }
+  .form-hight {
+    min-height: 35vh;
+  }
+  form {
+    width: 85%;
+    bottom: 20%;
+  }
+  footer .social-icons a {
+    font-size: 18px;
+  }
+  footer .author h5 {
+    font-size: 16px;
+  }
+  footer {
+    padding: 20px 0;
+  }
+}
+
+/* EXTRA SMALL DEVICES (Portrait Phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  header {
+    height: 45vh;
+  }
+  .nav-item {
+    margin: 0;
+  }
+  .nav-link {
+    display: inline-block;
+    font-size: 12px;
+  }
+  .banner-height {
+    height: 30vh;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .banner-content b {
+    font-size: 13px;
+  }
+  .banner-content h2 {
+    font-size: 20px;
+    padding: 2% 5%;
+  }
+  .banner-content p {
+    font-size: 11px;
+    padding: 2% 5% 5%;
+  }
+  .btn {
+    padding: 6px 13px;
+    font-size: 11px;
+  }
+  .section-header b {
+    font-size: 10px;
+  }
+  .section-header h2 {
+    font-size: 20px;
+  }
+  .section-header::before {
+    left: 44%;
+  }
+  .section-header::after {
+    right: 44%;
+  }
+
+  #pricing:hover .section-header::before,
+  #pricing:hover .section-header::after {
+    width: 22px;
+  }
+  #features {
+    padding: 40px 0 30px;
+  }
+  #features:hover .section-header::before,
+  #features:hover .section-header::after {
+    width: 22px;
+  }
+  #features .item {
+    margin: 0 10px 30px;
+  }
+  #features .item .icon {
+    padding: 25px;
+    font-size: 20px;
+  }
+  #features .item .title {
+    font-size: 22px;
+    padding: 10px 0 5px;
+  }
+  #features .item .details {
+    font-size: 12px;
+    padding: 0 15%;
+  }
+  #about {
+    padding-top: 50px;
+  }
+  #mobile-1 .section-header::after {
+    right: 86%;
+  }
+  #mobile-1 .section-header::before {
+    left: 3%;
+  }
+  #mobile-1:hover .section-header::before,
+  #mobile-1:hover .section-header::after {
+    width: 22px;
+  }
+  #about p {
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+  #about .icon img {
+    width: 15px;
+    height: 15px;
+  }
+  #about span {
+    font-size: 13px;
+  }
+  #about ul li {
+    align-items: center;
+  }
+  #mobile-1 {
+    padding-bottom: 30px;
+  }
+  #mobile-2 .section-header {
+    text-align: center;
+  }
+  #mobile-2:hover .section-header::before,
+  #mobile-2:hover .section-header::after {
+    width: 24px;
+  }
+  #mobile-2 .section-header::after {
+    right: 43.5%;
+  }
+  #mobile-2 .section-header::before {
+    left: 44.5%;
+  }
+  #mobile-2 p {
+    text-align: center;
+  }
+  #testimonial:hover .section-header::before,
+  #testimonial:hover .section-header::after {
+    width: 22px;
+  }
+  #contact:hover .section-header::before,
+  #contact:hover .section-header::after {
+    width: 22px;
+  }
+  #testimonial-carousel .item p {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 14px;
+  }
+  #testimonial-carousel .item .author-details {
+    margin: 0;
+  }
+  #testimonial .item .flex-sm-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #testimonial .item .flex-sm-column .col-2 {
+    width: 100%;
+  }
+  #testimonial-carousel .item .author-image {
+    width: 45px;
+    text-align: center;
+  }
+  #testimonial-carousel .item .author-image img {
+    margin-bottom: 10px;
+  }
+  #testimonial-carousel .item .author-details h5,
+  #testimonial-carousel .item .author-details small {
+    font-size: 12px;
+  }
+  .owl-theme .owl-dots {
+    margin-top: 30px !important;
+  }
+  #testimonial {
+    padding: 50px 0;
+  }
+  #like {
+    padding: 30px 15px;
+  }
+  #like h2 {
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  #like .banner-button {
+    text-align: center;
+  }
+  #like .btn {
+    padding: 7px 15px;
+    font-size: 10px;
+  }
+  #pricing {
+    padding: 40px 0;
+  }
+  #pricing .item {
+    width: 80%;
+    margin: 0 auto 40px;
+  }
+  #contact .icon {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  #contact p {
+    margin-bottom: 25px;
+    font-size: 12px;
+  }
+  .form-hight {
+    min-height: 30vh;
+  }
+  form {
+    padding: 40px 30px;
+    width: 85%;
+    bottom: 20%;
+  }
+  form input[type="email"] {
+    margin: 15px 0 !important;
+  }
+  form input {
+    padding: 10px 15px !important;
+    font-size: 12px !important;
+  }
+  .form-control::placeholder {
+    font-size: 12px;
+  }
+  form textarea {
+    margin-top: 14px;
+    font-size: 12px !important;
+  }
+  footer .social-icons a {
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+  }
+  footer .author h5 {
+    font-size: 14px;
+    padding: 5px;
+  }
+  footer {
+    padding: 15px 0;
+  }
+}
